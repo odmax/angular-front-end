@@ -23,14 +23,22 @@
 =======
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 import { LovedoniaComponent } from './lovedonia/lovedonia.component';
 import { Lovedonia } from './lovedonia.html/lovedonia.html.component';
+=======
+import { MosesComponent } from './moses/moses.component';
+>>>>>>> 3171efe78d30bdf5519351650d2af1c1d5300b57
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     LovedoniaComponent,
     Lovedonia.HtmlComponent
+=======
+    MosesComponent
+>>>>>>> 3171efe78d30bdf5519351650d2af1c1d5300b57
   ],
   imports: [
     BrowserModule,
