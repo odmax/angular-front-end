@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LovedoniaComponent } from './lovedonia/lovedonia.component';
+import { Lovedonia } from './lovedonia.html/lovedonia.html.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LovedoniaComponent,
+    Lovedonia.HtmlComponent
   ],
   imports: [
     BrowserModule,
