@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Busisiwe } from './busisiwe.html/busisiwe.html.component';
+import { BusisiweComponent } from './busisiwe/busisiwe.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Busisiwe.HtmlComponent,
+    BusisiweComponent
   ],
   imports: [
     BrowserModule,
